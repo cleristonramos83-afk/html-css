@@ -49,6 +49,7 @@ header > p {
     display: inline-block;
     padding: 5px;
     padding-bottom: 50px;
+    font-size: 30px;
 }
 
 header a,footer a{
@@ -91,6 +92,7 @@ section.normal {
 
 section.imagem {
 
+    box-shadow: inset 6px 6px 13px  0px rgba(0, 0, 0, 0.514);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
