@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+        }
+
+        td{
+            border: 2px solid pink;
+            padding: 10px;
+        }
+
+        #letra {
+
+            background-color: rgb(220, 162, 211);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(63, 35, 90);
+        }
+
+        #vogal{
+
+            background-color: rgb(168, 168, 215);
+        }
+
+        #silaba{
+
+            background-color: cornflowerblue;
+        }
+
+        #monossilaba{
+
+            background-color: darkorchid;
+        }
+
+        #tônica{
+
+            background-color: darkmagenta;
+        }
+
+        #algoritimo{
+
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr>
+            <td id="tônica">A</td>
+            <td colspan="2" id="monossilaba">B</td>
+           
+        </tr>
+        <tr>
+            <td rowspan="3" id="letra">D</td>
+            <td id="algoritimo">E</td>
+            <td rowspan="2" id="letra">F</td>
+        </tr>
+        <tr>
+            
+            <td id="silaba">H</td>
+        
+        </tr>
+        <tr>
+            
+            
+            <td colspan="2" id="vogal">M</td>
+        </tr>
+    </table>
+</body>
+</html>
