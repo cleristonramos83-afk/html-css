@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" 
+    autocomplete="on">
+
+    <fieldset>
+        <legend>Seu anime favorito</legend>
+        <input type="radio" name="anime" id="ikny"> <label for="iknny">Demons Slayer</label>
+        <input type="radio" name="anime" id="ijjk" checked> <label for="ijjk">Jujutsu Kaisen</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Comida favorita</legend>
+        <input type="checkbox" name="cmacarrao" id="icmacarrao">  <label for="icmacarrao">Macarrão </label></br>
+        <input type="checkbox" name="conigiri" id="iconigiri"> <label for="iconigiri">Onigiri</label> </br>
+        <input type="checkbox" name="csorvete" id="csorvete"> <label for="csorvete"> Sorvete </label></br>
+        <input type="checkbox" name="cmorango" id="icmorango"><label for="icmorango"> Morango </label></br>
+    </fieldset>
+
+
+        <p>
+        <input type="submit" value="Enviar!">
+        <input type="reset" value="Limpar!">
+        </p>
+    </form>
+</body>
+</html>
