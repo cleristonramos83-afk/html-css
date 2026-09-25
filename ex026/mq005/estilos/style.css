@@ -18,8 +18,13 @@ header{
 
 header > h1{
 
-    padding: 5px;
+    padding: 10px;
     text-align: center;
+}
+
+i#hamburguinho{
+
+    background-color: darkslategrey;
 }
 
 menu{
