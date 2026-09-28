@@ -22,14 +22,35 @@ header > h1{
     text-align: center;
 }
 
-i#hamburguinho{
+.material-symbols-outlined {
 
-    background-color: darkslategrey;
+   font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  background-color: darkslategrey;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.material-symbols-outlined:hover{
+
+    background-color: blueviolet;
+    color: rgb(47, 31, 62);
 }
 
 menu{
 
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -46,6 +67,7 @@ menu > ul >  li >a{
     color: white;
     text-align: center;
     border-top: 2px solid rgb(87, 84, 84);
+    margin: 4.5px;
 }
 
 menu > ul > li > a:hover{
@@ -73,4 +95,6 @@ article > p{
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
+    padding: 10px;
+    margin: 10px;
 }
