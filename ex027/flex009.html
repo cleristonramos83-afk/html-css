@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando flexbox</title>
+    <style>
+        div.conteiner{
+            background-color: darkmagenta;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.filho{
+            background-color: blueviolet;
+            border: 1px solid darkblue;
+            text-align: center;
+
+            flex-basis: 250px;
+           
+        }
+
+        div.ca{
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+           div.cb{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+           div.cd{
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="filho" id="ca">a</div>
+        <div class="filho" id="cb">b</div>
+        <div class="filho" id="cd">c</div>
+    </div>
+</body>
+</html>
